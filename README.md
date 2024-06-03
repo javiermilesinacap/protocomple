@@ -8,3 +8,7 @@ Proyecto relacionado con el día del Completo Chileno
 cd proytocomple
 npm install
 ```
+## Ejecución
+```console
+npm run dev
+```
