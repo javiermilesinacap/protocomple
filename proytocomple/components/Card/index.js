@@ -10,7 +10,7 @@ const index = () => {
             <h4 className='font-bold text-center'>EL PRODUCTO</h4>
             <p>Producto de prueba, por medio de un mockup</p>
             <p className='font-semibold scale-105'>$1520</p>
-            <Button texto={'Buy'} />
+            <Button texto={'Add to Cart'} />
         </div>
     )
 }
