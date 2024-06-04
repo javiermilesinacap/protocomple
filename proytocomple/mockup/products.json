@@ -1,0 +1,30 @@
+{
+"data":[
+    {
+        "id":1234,
+        "nombre":"Italiano",
+        "precio":2990,
+        "descripcion":"Pan baguette tostado, palta, tomate",
+        "imagen":"product1.jpg"
+    },{
+        "id":1235,
+        "nombre":"Completo",
+        "precio":2560,
+        "descripcion":"Pan baguette tostado, palta, tomate, chucrut, etc",
+        "imagen":"product2.jpg"
+    },    {
+        "id":1236,
+        "nombre":"Especial",
+        "precio":2850,
+        "descripcion":"Pan baguette tostado, palta, tomate",
+        "imagen":"product3.jpg"
+    },    {
+        "id":1237,
+        "nombre":"As Especial",
+        "precio":3450,
+        "descripcion":"Pan baguette tostado, palta, tomate",
+        "imagen":"product4.jpg"
+    }
+]
+
+}
