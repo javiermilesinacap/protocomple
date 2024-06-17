@@ -4,8 +4,8 @@ import { useState } from "react"
 const page = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  function handleFormSubmit(ev){
-    ev.preventDefault();
+  function handleFormSubmit(e){
+    e.preventDefault();
     fetch('/api/register', {
       method: 'POST',
       body: JSON.stringify({email,password}),
@@ -17,8 +17,8 @@ const page = () => {
     <section className="mt-8">
       <h1 className="text-center text-2xl">Registro</h1>
       <form className="block mx-auto max-w-xs" onSubmit={handleFormSubmit}>
-        <input type="email" placeholder="Escribe tu Email" value={email} onChange={ e => setEmail(e.target.value)}/>
-        <input type="password" placeholder="Escribe Clave"  value={password} onChange={ ev => setPassword(ev.target.password)} />
+        <input type="email" placeholder="Escribe tu Email" defaultValue={email} onChange={ e => setEmail(e.target.value)}/>
+        <input type="password" placeholder="Escribe Clave" defaultValue={password} onChange={ ev => setPassword(ev.target.value)} />
         <button type="submit"> Registrar </button>
       </form>
     </section>
